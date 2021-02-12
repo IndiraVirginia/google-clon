@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+}
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 13px;
+  margin-right: 29px;
+}
+.navegacion-menu a {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header nav .navegacion-menu {
+  width: 250px;
+  height: auto;
+  display: flex;
+}
+.navegacion-menu .correo {
+  background-image: url(images/gmail.svg);
+}
+.navegacion-menu .imagenes {
+  background-image: url(images/imagenes.png);
+}
+.navegacion-menu .aplicaciones {
+  background-image: url(images/cuadricula.svg);
+  max-width: 16px;
+}
+.navegacion-menu .aplicaciones:hover {
+  opacity: 0.4;
+}
+
+.navegacion-menu .correo .navegacion-menu .usuario {
+  height: 32px;
+  width: 32px;
+  margin-right: 0;
+}
+
+.navegacion-menu ol,
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.navegacion-menu .icono-user {
+  border-radius: 50%;
+  height: 100%;
+  width: auto;
+}
+
+.navegacion-menu a {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 23px;
+  height: 23px;
+  margin-right: 8.5px;
+  margin-left: 13px;
+}
+main {
+    text-align: center;
+}
+.logo-principal-gog {
+  width: 584px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.imagen-logo-google {
+  height: 92px;
+  width: 272px;
+}
+main .barra-buscador {
+  width: 583px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.barra-buscador-div {
+  width: 560px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #dfe1e5;
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  overflow: hidden;
+  padding: 5px 8px 5px 14px;
+  align-items: center;
+}
+.barra-buscador-div:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.barra-barra {
+  border: 0;
+  width: 100%;
+  height: 34px;
+  outline: none;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+}
+.buscador-icono {
+  height: 23px;
+  width: 23px;
+  display: inline-block;
+  fill: #9aa0a6;
+  padding-right: 13px;
+  margin-top: 3px;
+}
+.microfono-icon {
+  background-image: url(/images/microfono.svg);
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.atajos-barra-botones {
+  height: 0 auto;
+  width: 584px;
+  display: inline-block;
+  align-items: center;
+  margin-top: 4px;
+}
+.atajos-barra-botones button {
+  height: 36px;
+  background-color:#f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  color: #202124;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin: 0px 4px;
+}
+
+.atajos-barra-botones div {
+  display: inline-block;
+}
+
+.atajos-barra-botones div button:hover{
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  cursor: pointer;
+}
+
+.publicidad-main {
+  text-align: center;
+}
+.publicidad-video:hover {
+  text-decoration: underline;
+}
+.logo-publicidad {
+  height: 48px;
+  width: 48px;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+footer .footer-left {
+  justify-self: left;
+}
+
+footer .footer-right {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
